@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>📚 Book Library Management</h2>
+
+    <div class="card">
+        <h3>Add Book</h3>
+
+        <input type="text" id="title" placeholder="Book Name">
+        <input type="text" id="author" placeholder="Author Name">
+
+        <select id="category">
+            <option value="Fiction">Fiction</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+        </select>
+
+        <button id="addBtn">Add Book</button>
+    </div>
+
+    <div class="card">
+        <h3>Available Books</h3>
+        <ul id="bookList"></ul>
+    </div>
+
+    <div class="card">
+        <h3>Borrowing History</h3>
+        <ul id="historyList"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
